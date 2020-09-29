@@ -6,6 +6,7 @@ summary: This is the post's summary
 tags:
   - post
   - bird
+  - blah
 ---
 # This is a test post...
 

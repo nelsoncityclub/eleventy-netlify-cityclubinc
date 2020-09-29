@@ -1,11 +1,11 @@
 ---
 title: Test Post No.1
 date: 2020-09-29T21:19:34.336Z
-author: John Doe
+author: Peter Thompson
 summary: This is the post's summary
 tags:
   - post
-  - birds
+  - bird
 ---
 # This is a test post...
 

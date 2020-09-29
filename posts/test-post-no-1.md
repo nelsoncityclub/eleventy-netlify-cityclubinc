@@ -5,6 +5,7 @@ author: John Doe
 summary: This is the post's summary
 tags:
   - post
+  - birds
 ---
 # This is a test post...
 

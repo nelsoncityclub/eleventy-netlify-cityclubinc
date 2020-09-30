@@ -9,9 +9,15 @@ eleventyNavigation:
 ---
 # Welcome
 
-This is a template for building a simple blog website with the [Eleventy static site generator](https://www.11ty.io), with deployment to [Netlify](https://www.netlify.com).
+With the best views of the Haven, **Nelson** City Club is an easy-going, safe place where both young and old can enjoy a beer (fully licensed bar), have a meal, and play a game of pool, darts or snooker. The venue can also be hired.
 
-Includes [Netlify CMS](https://www.netlifycms.org) for WYSIWYG content editing, and [Netlify Forms](https://www.netlify.com/docs/form-handling) for processing your site's form data.
+> "We have good parking available, a lovely lounge with a great outlook, a darts section, pool tables and a big snooker room," 
+says *President Peter Fisher*. 
 
-For more info on installation and usage, view the [project repo]({{ pkg.repository.url }}) on GitHub.
+A charter club since 1890, City Club has had a long local history; initially operating as a business network club in the central city, its new location at **[1 Kinzett Terrace, Nelson](https://goo.gl/maps/pUmQtzwUdbDowJ1V9)** is also proving popular, with any previous members welcome back at a special rate. 
 
+City Club has joint membership with the **Maitai Bowling Club** and last year we had **Nelson Suburban Club** join us, also. Our annual membership fee is only **$40 per person**, with junior membership also available. If you are considering joining, come down to the club and see how you feel about it.
+
+Visit our [Gallery page](/gallery) to see some of the club's facilities.
+
+For more information, go to our [Contact page](/contact) and send us a message, an email [office@cityclubnelson.co.nz](mailto:office@cityclubnelson.co.nz), visit [City Club Nelson on Facebook](https://www.facebook.com/nelsonsuburbanclub/) or phone [(03) 548 0247](tel:035480247) after 4.00pm Tuesday to Saturday.

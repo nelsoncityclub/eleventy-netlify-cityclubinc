@@ -5,11 +5,13 @@
 
 	<body>
 
-		<header>
+		<header>						
 			<em>
-				<a href="{{ '/' | url }}">{{ metadata.title }}</a>
+				<a href="{{ '/' | url }}"><img src={{ metadata.headerImage }} alt="Site logo and name"></a>
 			</em>
+			
 			{% include "components/nav.njk" %}
+					
 		</header>
 
 		<main>

@@ -1,5 +1,4 @@
 :root {
-	/* --primary: rgb(0, 0, 102); */
 	--primary: #0250a8;
 	--secondary: white;
 	--background: var(--secondary);
@@ -21,10 +20,8 @@ html {
 }
 
 body {
-	display: grid;
 	height: 100vh;
-	grid-template-rows: auto 1fr auto;
-	font-size: 1.15em;
+	font-size: 1.25em;
 	background-color: var(--background);
 }
 
@@ -81,6 +78,17 @@ main :first-child, main>article :first-child {
 	margin-top: 0;
 }
 
+.gallery img {
+	border-radius: 6px;
+	box-shadow: 0 4px 6px #666;
+}
+
+.image-caption {
+	display: block;
+	text-align: center;
+	padding: 5px 0;
+}
+
 blockquote {
 	margin-left: 1em;
 	padding-left: 1em;
@@ -109,16 +117,18 @@ pre {
 
 header>em {
 	display: block;	
+	position: relative;
 	margin: .67em 0;	
+	margin-top: 2.25em;	
+	height: 138px;
 }
 
-/* header>em {
-	display: block;
-	font-size: 2.5em;
-	margin: .67em 0;
-	font-weight: bold;
-	font-style: normal;
-} */
+header>em img {
+  color: var(--primary);
+  font-size: 3em;
+  font-family: georgia, times, serif;
+  font-style: normal;  
+}
 
 /* Header Nav */
 
@@ -222,8 +232,14 @@ button {
 	cursor: pointer;
 }
 
-@media screen and (min-width:768px) {
-	:root {
-		font-size: 1.1rem;
+@media screen and (max-width:768px) {
+	body {
+		font-size: 1.15em;
+	}
+}
+
+@media screen and (max-width:480px) {
+	body {
+		font-size: 1em;
 	}
 }

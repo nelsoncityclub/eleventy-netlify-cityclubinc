@@ -17,6 +17,6 @@ tags:
 
 Source: [Wikipedia](https://en.wikipedia.org/wiki/Nelson,_New_Zealand)
 
-## A Picture
+## Looking across Nelson City
 
-![Looking across Nelson City](https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Nelson_New_Zealand.jpg/640px-Nelson_New_Zealand.jpg)
+![Looking across Nelson City from the Centre of New Zealand](https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Nelson_New_Zealand.jpg/640px-Nelson_New_Zealand.jpg "Looking across Nelson City from the Centre of New Zealand")

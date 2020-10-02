@@ -7,6 +7,9 @@ eleventyNavigation:
   key: Home
   order: 0
 ---
+
+![Exterior of club](/static/img/gallery/_exterior1.jpg)
+
 # Welcome
 
 With the best views of the Haven, **Nelson** City Club is an easy-going, safe place where both young and old can enjoy a beer (fully licensed bar), have a meal (onsite kitchen), and play a game of pool, darts or snooker. The venue can also be hired.

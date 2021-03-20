@@ -8,8 +8,6 @@ eleventyNavigation:
   order: 0
 ---
 
-![Exterior of club](/static/img/gallery/_exterior1.jpg)
-
 # Welcome
 
 With the best views of the Haven, **Nelson** City Club is an easy-going, safe place where both young and old can enjoy a beer (fully licensed bar), have a meal (onsite kitchen), and play a game of pool, darts or snooker. The venue can also be hired.
@@ -23,4 +21,4 @@ City Club has joint membership with the **Maitai Bowling Club**. Our annual memb
 
 Visit our [Gallery page](/gallery) to see some of the club's facilities.
 
-For more information, go to our [Contact page](/contact) and send us a message, an email [office@cityclubnelson.co.nz](mailto:office@cityclubnelson.co.nz), or phone [(03) 548 0247](tel:035480247) after 4.00pm Tuesday to Saturday.
+For more information click on the following link to go to our contact page: [Contact page](/contact)

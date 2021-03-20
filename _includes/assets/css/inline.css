@@ -21,7 +21,7 @@ html {
 
 body {
 	height: 100vh;
-	font-size: 1.25em;
+	font-size: 1.35rem;
 	background-color: var(--background);
 }
 
@@ -116,25 +116,26 @@ pre {
 /* Header Logo (style as h2) */
 
 header>em {
-	display: block;	
+	display: block;
 	position: relative;
-	margin: .67em 0;	
-	margin-top: 2.25em;	
+	margin: .67em 0;
+	margin-top: 2.25em;
 	height: 138px;
 }
 
-header>em img {
-  color: var(--primary);
-  font-size: 3em;
-  font-family: georgia, times, serif;
-  font-style: normal;  
-}
+/* header>em img {
+	color: var(--primary);
+	font-size: 3em;
+	font-family: georgia, times, serif;
+	font-style: normal;
+} */
 
 /* Header Nav */
 
 header nav ul {
 	padding: 0;
 	list-style: none;
+	margin: 3em 0 1em 0;
 }
 
 header nav ul :first-child {
@@ -147,16 +148,20 @@ header nav li {
 }
 
 header nav li a {
-	padding: .25em .5em;
-	border-radius: .25em;
+	padding: .25em 0;
+	/* border-radius: .25em; */
+	text-decoration: none;
+	margin-right: 1.25em;
+	font-weight: bold;
+	font-size: 1.5rem;
 }
 
-header nav li a[href]:not(:hover) {
+/* header nav li a[href]:not(:hover) {
 	text-decoration: none;
-}
+} */
 
 header nav li a[data-current="current item"] {
-	background-color: rgb(236, 236, 236);
+	border-bottom: 2px solid var(--primary);
 }
 
 /* Posts List */

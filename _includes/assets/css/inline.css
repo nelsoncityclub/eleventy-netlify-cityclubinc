@@ -139,30 +139,26 @@ header>em {
 
 /* Header Nav */
 
-header nav {
+nav {
 	display: flex;
 	justify-content: center;
 }
 
-header nav ul {
+nav ul {
 	display: flex;
 	justify-content: space-around;
 	flex-wrap: wrap;
-	padding: 0;
+	padding: 0 1em;
 	list-style: none;
 	margin: 3em 0 1em 0;
 }
 
-header nav li:first-of-type {
-	margin-left: 0;
-}
-
-header nav li {
+nav li {
 	display: inline-block;
 	margin: 0.25em;
 }
 
-header nav li a {
+nav li a {
 	padding: .25em 0;
 	text-decoration: none;
 	margin-right: 1.0em;
@@ -170,12 +166,21 @@ header nav li a {
 	font-size: 1.0em;
 }
 
+nav li:first-of-type {
+	margin-left: 0;
+}
+
+nav li:last-of-type {
+	margin-right: 0;
+}
+
 /* header nav li a[href]:not(:hover) {
 	text-decoration: none;
 } */
 
-header nav li a[data-current="current item"] {
+nav li a[data-current="current item"] {
 	border-bottom: 2px solid var(--primary-colour);
+	padding-bottom: 0.1em;
 }
 
 /* Posts List */

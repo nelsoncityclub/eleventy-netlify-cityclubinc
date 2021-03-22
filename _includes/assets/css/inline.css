@@ -1,7 +1,7 @@
 :root {
-	--primary: #0250a8;
-	--secondary: white;
-	--background: var(--secondary);
+	--primary-colour: #0250a8;
+	--secondary-colour: white;
+	--background-colour: var(--secondary-colour);
 }
 
 *, *:before, *:after {
@@ -22,7 +22,7 @@ html {
 body {
 	height: 100vh;
 	font-size: 1.35rem;
-	background-color: var(--background);
+	background-color: var(--background-colour);
 }
 
 main {
@@ -31,7 +31,21 @@ main {
 }
 
 h1, h2, h3 {
-	color: var(--primary);
+	color: var(--primary-colour);
+	margin-bottom: 0.15em;
+}
+
+h1 {
+	font-size: 1.75em;
+	margin-bottom: 0.5em;
+}
+
+h2 {
+	font-size: 1.45em;
+}
+
+h3 {
+	font-size: 1.2em;
 }
 
 p, pre, code {
@@ -39,7 +53,7 @@ p, pre, code {
 }
 
 a[href], a[href]:visited {
-	color: var(--primary);
+	color: var(--primary-colour);
 }
 
 a[href]:not(:hover) {
@@ -93,11 +107,11 @@ blockquote {
 	margin-left: 1em;
 	padding-left: 1em;
 	font-style: italic;
-	border-left: 4px solid var(--primary);
+	border-left: 4px solid var(--primary-colour);
 }
 
 pre {
-	font-size: 14px;
+	font-size: 0.85rem;
 	direction: ltr;
 	text-align: left;
 	white-space: pre;
@@ -123,37 +137,37 @@ header>em {
 	height: 138px;
 }
 
-/* header>em img {
-	color: var(--primary);
-	font-size: 3em;
-	font-family: georgia, times, serif;
-	font-style: normal;
-} */
-
 /* Header Nav */
 
+header nav {
+	display: flex;
+	justify-content: center;
+}
+
 header nav ul {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
 	padding: 0;
 	list-style: none;
 	margin: 3em 0 1em 0;
 }
 
-header nav ul :first-child {
+header nav li:first-of-type {
 	margin-left: 0;
 }
 
 header nav li {
 	display: inline-block;
-	margin: 0 .25em;
+	margin: 0.25em;
 }
 
 header nav li a {
 	padding: .25em 0;
-	/* border-radius: .25em; */
 	text-decoration: none;
-	margin-right: 1.25em;
+	margin-right: 1.0em;
 	font-weight: bold;
-	font-size: 1.5rem;
+	font-size: 1.0em;
 }
 
 /* header nav li a[href]:not(:hover) {
@@ -161,7 +175,7 @@ header nav li a {
 } */
 
 header nav li a[data-current="current item"] {
-	border-bottom: 2px solid var(--primary);
+	border-bottom: 2px solid var(--primary-colour);
 }
 
 /* Posts List */
@@ -170,7 +184,7 @@ article {
 	margin-bottom: 1em;
 	padding-bottom: 1em;
 	border-bottom: 1px solid #eee;
-	border-bottom: 1px solid var(--secondary);
+	border-bottom: 1px solid var(--secondary-colour);
 }
 
 main>section>article>* {
@@ -189,18 +203,18 @@ a[rel="tag"], a[rel="tag"]:visited {
 	padding: 0 .5em;
 	line-height: 2em;
 	height: 2em;
-	border: 1px solid var(--secondary);
-	background-color: var(--secondary);
-	color: var(--primary);
+	border: 1px solid var(--secondary-colour);
+	background-color: var(--secondary-colour);
+	color: var(--primary-colour);
 	border-radius: .25em;
 	text-decoration: none;
 	margin: 0 .5em .5em 0;
 }
 
 a[rel="tag"]:hover {
-	border: 1px solid var(--primary);
-	background-color: var(--primary);
-	color: var(--secondary);
+	border: 1px solid var(--primary-colour);
+	background-color: var(--primary-colour);
+	color: var(--secondary-colour);
 }
 
 a[rel="tag"]:last-child {
@@ -209,13 +223,20 @@ a[rel="tag"]:last-child {
 
 /* Contact Form */
 
+hr {
+	color: #ccc;
+	display: block;
+	margin: 2em 0;
+}
+
 form {
 	display: grid;
-	padding: 2em 0;
+	padding: 1em 0 2em 0;
 }
 
 form label {
-	display: none;
+	display: block;
+	margin-bottom: 0.25em;
 }
 
 input, textarea, button {
@@ -223,7 +244,7 @@ input, textarea, button {
 	padding: 1em;
 	margin-bottom: 1em;
 	font-size: 1rem;
-	font-family: "Avenir", "Avenir Next", sans-serif;
+	font-family: "Avenir", "Avenir Next", helvetica, arial, sans-serif;
 }
 
 input, textarea {
@@ -231,20 +252,20 @@ input, textarea {
 }
 
 button {
-	border: 1px solid var(--primary);
-	background-color: var(--primary);
-	color: var(--secondary);
+	border: 1px solid var(--primary-colour);
+	background-color: var(--primary-colour);
+	color: var(--secondary-colour);
 	cursor: pointer;
 }
 
 @media screen and (max-width:768px) {
 	body {
-		font-size: 1.15em;
+		font-size: 1.25em;
 	}
 }
 
 @media screen and (max-width:480px) {
 	body {
-		font-size: 1em;
+		font-size: 1.15em;
 	}
 }

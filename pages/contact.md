@@ -6,7 +6,7 @@ date: 2018-01-01
 permalink: /contact/index.html
 eleventyNavigation:
   key: Contact
-  order: 3
+  order: 5
 ---
 
 ### Membership application form
@@ -19,4 +19,4 @@ You can download the form by:
 
 ### Other ways of contacting us
 
-If you have any questions you can use the form below to send us a message. Alternatively you can email us ([office@cityclubnelson.co.nz](mailto:office@cityclubnelson.co.nz)), or phone us, [(03) 548 0247](tel:035480247), after 4.00pm Tuesday to Saturday.
+If you have any questions you can email us ([office@cityclubnelson.co.nz](mailto:office@cityclubnelson.co.nz)), or phone us, [(03) 548 0247](tel:035480247), after 4.00pm Tuesday to Saturday.

@@ -13,14 +13,14 @@ eleventyNavigation:
 Below is a list of committee members along with their contact details.
 
 ## Post holders
-### President: Donald Trump
-![picture of donald trump](/static/img/profiles/man1.jpeg)
+### President: Peter Fisher
+![picture of Peter Fisher](/static/img/profiles/peter-fisher.jpg)
 Contact email: abc@def.co.nz
-### Secretary: Ivanka Trump
-![picture of ivanka trump](/static/img/profiles/woman1.jpeg)
+### Secretary: Mary White
+![picture of mary white](/static/img/profiles/woman1.jpg)
 Contact email: abc@def.co.nz
-### Treasurer: Jared Kushner
-![picture of jared kushner](/static/img/profiles/man2.jpeg)
+### Treasurer: Andrew Jones
+![picture of andrew jones](/static/img/profiles/man2.jpg)
 Contact email: abc@def.co.nz
 
 ## Others members

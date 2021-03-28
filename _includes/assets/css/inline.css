@@ -30,6 +30,14 @@ main {
 	margin: 0 auto;
 }
 
+.message {
+	padding: 1rem;
+	border-radius: 6px;
+	border: 2px solid #ff3322;
+	background-color: rgba(255, 33, 22, 0.2);
+	color: #111;
+}
+
 h1, h2, h3 {
 	color: var(--primary-colour);
 	margin-bottom: 0.15em;

@@ -1,284 +1,308 @@
 :root {
-	--primary-colour: #0250a8;
-	--secondary-colour: white;
-	--background-colour: var(--secondary-colour);
+    --primary-colour: #0250a8;
+    --secondary-colour: white;
+    --background-colour: var(--secondary-colour);
 }
 
-*, *:before, *:after {
-	box-sizing: border-box;
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
 }
 
-html, body {
-	padding: 0;
-	margin: 0;
-	height: 100%;
-	font-family: "Avenir", "Avenir Next", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+html,
+body {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    font-family: "Avenir", "Avenir Next", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
 }
 
 html {
-	font-size: 100%;
+    font-size: 100%;
 }
 
 body {
-	height: 100vh;
-	font-size: 1.35rem;
-	background-color: var(--background-colour);
+    height: 100vh;
+    font-size: 1.35rem;
+    background-color: var(--background-colour);
 }
 
 main {
-	max-width: 37.5em;
-	margin: 0 auto;
+    max-width: 37.5em;
+    margin: 0 auto;
 }
 
 .message {
-	padding: 1rem;
-	border-radius: 6px;
-	border: 2px solid #ff3322;
-	background-color: rgba(255, 33, 22, 0.2);
-	color: #111;
+    padding: 1rem;
+    border-radius: 6px;
+    border: 2px solid #ff3322;
+    background-color: rgba(255, 33, 22, 0.2);
+    color: #111;
 }
 
-h1, h2, h3 {
-	color: var(--primary-colour);
-	margin-bottom: 0.15em;
+.hidden {
+    display: none;
+}
+
+h1,
+h2,
+h3 {
+    color: var(--primary-colour);
+    margin-bottom: 0.15em;
 }
 
 h1 {
-	font-size: 1.75em;
-	margin-bottom: 0.5em;
+    font-size: 1.75em;
+    margin-bottom: 0.5em;
 }
 
 h2 {
-	font-size: 1.45em;
+    font-size: 1.45em;
 }
 
 h3 {
-	font-size: 1.2em;
+    font-size: 1.2em;
 }
 
-p, pre, code {
-	line-height: 1.5;
+p,
+pre,
+code {
+    line-height: 1.5;
 }
 
-a[href], a[href]:visited {
-	color: var(--primary-colour);
+a[href],
+a[href]:visited {
+    color: var(--primary-colour);
 }
 
 a[href]:not(:hover) {
-	text-decoration: none;
+    text-decoration: none;
 }
 
 img {
-	max-width: 100%;
-	height: auto;
+    max-width: 100%;
+    height: auto;
 }
 
 header {
-	width: 100%;
-	margin-bottom: 1em;
-	background-color: rgb(255, 255, 255);
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
+    width: 100%;
+    margin-bottom: 1em;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 footer {
-	display: flex;
-	justify-content: center;
+    display: flex;
+    justify-content: center;
 }
 
-main, footer {
-	padding: 1em;
+main,
+footer {
+    padding: 1em;
 }
 
 main {
-	padding-bottom: 2em;
+    padding-bottom: 2em;
 }
 
-main :first-child, main>article :first-child {
-	margin-top: 0;
+main :first-child,
+main>article :first-child {
+    margin-top: 0;
 }
 
 main img {
-	border-radius: 6px;
-	box-shadow: 0 4px 6px #666;
+    border-radius: 6px;
+    box-shadow: 0 4px 6px #666;
 }
 
 .image-caption {
-	display: block;
-	text-align: center;
-	padding: 5px 0;
+    display: block;
+    text-align: center;
+    padding: 5px 0;
 }
 
 blockquote {
-	margin-left: 1em;
-	padding-left: 1em;
-	font-style: italic;
-	border-left: 4px solid var(--primary-colour);
+    margin-left: 1em;
+    padding-left: 1em;
+    font-style: italic;
+    border-left: 4px solid var(--primary-colour);
 }
 
 pre {
-	font-size: 0.85rem;
-	direction: ltr;
-	text-align: left;
-	white-space: pre;
-	word-spacing: normal;
-	word-break: normal;
-	-moz-tab-size: 2;
-	tab-size: 2;
-	-webkit-hyphens: none;
-	-moz-hyphens: none;
-	-ms-hyphens: none;
-	hyphens: none;
-	padding: 1em;
-	margin: .5em 0;
+    font-size: 0.85rem;
+    direction: ltr;
+    text-align: left;
+    white-space: pre;
+    word-spacing: normal;
+    word-break: normal;
+    -moz-tab-size: 2;
+    tab-size: 2;
+    -webkit-hyphens: none;
+    -moz-hyphens: none;
+    -ms-hyphens: none;
+    hyphens: none;
+    padding: 1em;
+    margin: .5em 0;
 }
+
 
 /* Header Logo (style as h2) */
 
 header>em {
-	display: block;
-	position: relative;
-	margin: .67em 0;
-	margin-top: 2.25em;
-	height: 138px;
+    display: block;
+    position: relative;
+    margin: .67em 0;
+    margin-top: 2.25em;
+    height: 138px;
 }
+
 
 /* Header Nav */
 
 nav {
-	display: flex;
-	justify-content: center;
+    display: flex;
+    justify-content: center;
 }
 
 nav ul {
-	display: flex;
-	justify-content: space-around;
-	flex-wrap: wrap;
-	padding: 0 1em;
-	list-style: none;
-	margin: 3em 0 1em 0;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 0 1em;
+    list-style: none;
+    margin: 3em 0 1em 0;
 }
 
 nav li {
-	display: inline-block;
-	margin: 0.25em;
+    display: inline-block;
+    margin: 0.25em;
 }
 
 nav li a {
-	padding: .25em 0;
-	text-decoration: none;
-	margin-right: 1.0em;
-	font-weight: bold;
-	font-size: 1.0em;
+    padding: .25em 0;
+    text-decoration: none;
+    margin-right: 1.0em;
+    font-weight: bold;
+    font-size: 1.0em;
 }
 
 nav li:first-of-type {
-	margin-left: 0;
+    margin-left: 0;
 }
 
 nav li:last-of-type {
-	margin-right: 0;
+    margin-right: 0;
 }
+
 
 /* header nav li a[href]:not(:hover) {
 	text-decoration: none;
 } */
 
 nav li a[data-current="current item"] {
-	border-bottom: 2px solid var(--primary-colour);
-	padding-bottom: 0.1em;
+    border-bottom: 2px solid var(--primary-colour);
+    padding-bottom: 0.1em;
 }
+
 
 /* Posts List */
 
 article {
-	margin-bottom: 1em;
-	padding-bottom: 1em;
-	border-bottom: 1px solid #eee;
-	border-bottom: 1px solid var(--secondary-colour);
+    margin-bottom: 1em;
+    padding-bottom: 1em;
+    border-bottom: 1px solid #eee;
+    border-bottom: 1px solid var(--secondary-colour);
 }
 
 main>section>article>* {
-	margin-top: 0;
-	margin-bottom: .5em;
+    margin-top: 0;
+    margin-bottom: .5em;
 }
+
 
 /* Post Tags */
 
-a[rel="tag"], a[rel="tag"]:visited {
-	display: inline-block;
-	vertical-align: text-top;
-	text-transform: uppercase;
-	letter-spacing: .1em;
-	font-size: .625em;
-	padding: 0 .5em;
-	line-height: 2em;
-	height: 2em;
-	border: 1px solid var(--secondary-colour);
-	background-color: var(--secondary-colour);
-	color: var(--primary-colour);
-	border-radius: .25em;
-	text-decoration: none;
-	margin: 0 .5em .5em 0;
+a[rel="tag"],
+a[rel="tag"]:visited {
+    display: inline-block;
+    vertical-align: text-top;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    font-size: .625em;
+    padding: 0 .5em;
+    line-height: 2em;
+    height: 2em;
+    border: 1px solid var(--secondary-colour);
+    background-color: var(--secondary-colour);
+    color: var(--primary-colour);
+    border-radius: .25em;
+    text-decoration: none;
+    margin: 0 .5em .5em 0;
 }
 
 a[rel="tag"]:hover {
-	border: 1px solid var(--primary-colour);
-	background-color: var(--primary-colour);
-	color: var(--secondary-colour);
+    border: 1px solid var(--primary-colour);
+    background-color: var(--primary-colour);
+    color: var(--secondary-colour);
 }
 
 a[rel="tag"]:last-child {
-	margin-right: 0;
+    margin-right: 0;
 }
+
 
 /* Contact Form */
 
 hr {
-	color: #ccc;
-	display: block;
-	margin: 2em 0;
+    color: #ccc;
+    display: block;
+    margin: 2em 0;
 }
 
 form {
-	display: grid;
-	padding: 1em 0 2em 0;
+    display: grid;
+    padding: 1em 0 2em 0;
 }
 
 form label {
-	display: block;
-	margin-bottom: 0.25em;
+    display: block;
+    margin-bottom: 0.25em;
 }
 
-input, textarea, button {
-	width: 100%;
-	padding: 1em;
-	margin-bottom: 1em;
-	font-size: 1rem;
-	font-family: "Avenir", "Avenir Next", helvetica, arial, sans-serif;
+input,
+textarea,
+button {
+    width: 100%;
+    padding: 1em;
+    margin-bottom: 1em;
+    font-size: 1rem;
+    font-family: "Avenir", "Avenir Next", helvetica, arial, sans-serif;
 }
 
-input, textarea {
-	border: 1px solid black;
+input,
+textarea {
+    border: 1px solid black;
 }
 
 button {
-	border: 1px solid var(--primary-colour);
-	background-color: var(--primary-colour);
-	color: var(--secondary-colour);
-	cursor: pointer;
+    border: 1px solid var(--primary-colour);
+    background-color: var(--primary-colour);
+    color: var(--secondary-colour);
+    cursor: pointer;
 }
 
 @media screen and (max-width:768px) {
-	body {
-		font-size: 1.25em;
-	}
+    body {
+        font-size: 1.25em;
+    }
 }
 
 @media screen and (max-width:480px) {
-	body {
-		font-size: 1.15em;
-	}
+    body {
+        font-size: 1.15em;
+    }
 }

@@ -8,14 +8,16 @@ eleventyNavigation:
   key: Events
   order: 4
 ---
-
 ### Events
 
 Below you will find a list of events past, present and future. If you are interested in taking part in a future event please use the form below to register your interest.
 
-**1st April: Darts tournament**. An all day event. Start at 9am and finish around 4pm. Morning tea provided. $10 per person.
+**21st May: Heineken Party Night**. From 4 pm. Please see the poster and info. I will print some copies. See you Wednesday.\
+\
+Click on this link to download the poster and learn more: [party poster](https://drive.google.com/file/d/17ywSDnK-M_lizUYXJg-U5VO8xa0vJoS9/view?usp=sharing)
 
-**22nd March: Billiards tournament**. An all day event. Start at 9am and finish around 4pm. Morning tea provided. $10 per person.
-___
+Cheers Peter.
+
+- - -
 
 ### Register interest

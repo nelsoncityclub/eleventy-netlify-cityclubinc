@@ -45,6 +45,19 @@ main {
     display: none;
 }
 
+.event-box {
+    padding: 1.25rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    background-color: #fefefe;
+}
+
+.event-heading {
+    font-weight: 900;
+    /* border-bottom: 2px solid var(--primary-colour); */
+    color: var(--primary-colour);
+}
+
 h1,
 h2,
 h3 {

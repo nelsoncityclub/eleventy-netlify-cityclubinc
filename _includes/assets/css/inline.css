@@ -26,7 +26,7 @@ html {
 
 body {
     height: 100vh;
-    font-size: 1.15rem;
+    font-size: 1.15 trem;
     background-color: var(--background-colour);
     color: var(--text-colour);
     /* text-rendering: optimizeLegibility; */
@@ -82,6 +82,9 @@ h2 {
 h3 {
     font-size: 1.2em;
 }
+
+
+/* Repurpose the h4 so it becomes coloured, bold and underlined */
 
 h4 {
     display: inline-block;

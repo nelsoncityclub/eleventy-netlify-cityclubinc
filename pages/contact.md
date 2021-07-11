@@ -11,7 +11,7 @@ eleventyNavigation:
 
 ### Membership application form
 
-You can view the club application form by clicking on this link: [Application Form](/static/assets/Application-for-Membership-Template1.pdf)
+You can view the club application form by clicking on this link: [Application Form](https://drive.google.com/file/d/15ki1LfNyuKegdoOzd5rTViYqFTX5sLOm/view?usp=sharing)
 
 You can download the form by:
 + Right-clicking on the link and choosing the <strong>Save link as...</strong>, (or similar text), from the menu that appears.

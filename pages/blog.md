@@ -8,5 +8,6 @@ eleventyNavigation:
   order: 2
 ---
 
-**On this page you will find news items, for example recent newsletters. <u>Click on a news item's heading to see the full version.</u>**
+On this page you will find news items, for example recent newsletters. 
+#### Click on a news item's heading to see the full version.
 ___

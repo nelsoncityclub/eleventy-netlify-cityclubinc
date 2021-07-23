@@ -101,6 +101,8 @@ This file contains your site title and author details, and can be used to store 
 
 ```
 npx @11ty/eleventy
+OR:
+npx @11ty/eleventy --serve --port=8080
 ```
 
 Or build automatically when a template changes:

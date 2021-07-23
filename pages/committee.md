@@ -8,8 +8,6 @@ eleventyNavigation:
   order: 3
 ---
 
-# Committee
-
 Below is a list of current committee members.
 
 ### President: Peter Fisher

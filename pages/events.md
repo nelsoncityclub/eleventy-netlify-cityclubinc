@@ -10,9 +10,7 @@ eleventyNavigation:
 ---
 **Below you will find a list of events. If you are interested in taking part in a future one please use the form below to register your interest.**
 
-- - -
-
-## 21st May: Heineken Party Night
+## 21st August: Test Event
 
 From 4pm. Come along and have a good night. Your first Heineken 360ml is on our Sponsor, after that every Heineken purchased puts you into the draw. First draw is at 5.30, next at 6.00, and grand prize 6.30pm - but you must be there to claim your prize when drawn.
 
@@ -22,6 +20,6 @@ See you Wednesday.
 
 Cheers Peter.
 
-- - -
+
 
 ### Register interest

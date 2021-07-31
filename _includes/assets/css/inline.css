@@ -62,7 +62,6 @@ h4 {
     color: var(--primary-colour);
     margin-bottom: 0.15em;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    /* font-family: "Open Sans", sans-serif; */
 }
 
 h1 {
@@ -286,8 +285,7 @@ button {
     padding: 1em;
     margin-bottom: 1em;
     font-size: 1rem;
-    font-family: Roboto, sans-serif;
-    /* font-family: "Avenir", "Avenir Next", helvetica, arial, sans-serif; */
+    font-family: "Avenir", "Avenir Next", helvetica, arial, sans-serif;
 }
 
 input,
